@@ -12,7 +12,7 @@ body {
     align-items: center;
     justify-content: center;
     font-family: sans-serif;
-    background-color: #dac400;
+    background-color: whitesmoke;
 }
 
 /* Button */
@@ -56,7 +56,7 @@ i {
 
 .front {
     backface-visibility: hidden;
-    border-left: 3px solid #dac400;
+    border-left: 3px solid pink;
 }
 
 .front, 
@@ -103,15 +103,20 @@ i {
 }
 
 /* Paper Z-index */
+/* Paper Z-index */
 #p1 {
-    z-index: 3;
+    z-index: 4;
 }
 
 #p2 {
-    z-index: 2;
+    z-index: 3;
 }
 
 #p3 {
+    z-index: 2;
+}
+
+#p4 {
     z-index: 1;
 }
 
